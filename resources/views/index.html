@@ -49,7 +49,9 @@
     <p>Para citações curtas use a tag <q>q</q> colocando dentro das tags &lt;q&gt;DIGITE AQUI&lt;/q&gt; conforme o próximo exemplo; Fulano de tal disse <q>aqui vai um exemplo de citação curta.</q></p>
     <hr>
     <h2>Abreviations and acronims (abreviações e acrônimos)</h2>
-    <p>Para usar uma abreviação usamos a tag <q>abbr</q> ex: O <abbr title="Professor">Prof </abbr>Gustavo Guanabara fez um curso de HTML no canal <q>Curso em vídeo.</q></p>
+    <p>Para usar uma abreviação usamos a tag <q>abbr</q> preechendo o titulo com o significa da abreviação ou acrônimo. ex:</p>
+    <p>O &lt;abbr title="Professor"&gt;Prof&lt;/abbr&gt; Gustavo Guanabara fez um cuso de HTML no canal...</p>
+    <p>O <abbr title="Professor">Prof</abbr> Gustavo Guanabara fez um curso de HTML no canal <q>Curso em vídeo.</q></p>
     <p>Também se usa a tag <q>abbr</q> em acrônimos ex: Os <abbr title="Estados Unidos da América"> EUA </abbr>era a grande potência mundial!</p>
     <hr>
     <h2>Citations and definitions (citações e definições)</h2>
@@ -57,11 +59,19 @@
     <p>Para definir uma nova terminologia ou um novo jargão se usa <q>dfn</q> ex: Um <dfn>buraco negro</dfn> é uma região do espaço da qual nada, nem mesmo a luz, pode escapar. colocando a frase ou palavra dentro das tags &lt;dfn&gt;DIGITE AQUI&lt;/dfn&gt;</p>
     <hr>
     <h2>Author details (detalhes do autor)</h2>
-    <p>A tag <q>address</q> tem um uso bastante específico de conter detalhes de contato do autor da página, ex: 
-    <address>
-        <p><a href="mailto:emailteste@gmail.com">emailteste@gmail.com</a></p>
-        <p>896 Rua das Pedras, Araça.</p>
-    </address>
+    <p>A tag <q>address</q> tem um uso bastante específico de conter detalhes de contato do autor da página, ex:
+    <p>
+        <pre>
+            &lt;address&gt;
+                &lt;p&gt;&lt;a href="mailto:emailteste@gmail.com"&gt;emailteste@gmail.com&lt;/a&gt;&lt;/p&gt;
+                &lt;p&gt;896 Rua das Pedras, Araça.&lt;/p&gt;                
+            &lt;/address&gt;
+        </pre>
+    </p> 
+        <address>
+            <p><a href="mailto:emailteste@gmail.com">emailteste@gmail.com</a></p>
+            <p>896 Rua das Pedras, Araça.</p>
+        </address>
     </p>
     <hr>
     <h2>Changes to content (mudança de conteúdo)</h2>
@@ -197,10 +207,14 @@
     <p>Quando queremos usar um série de termos e suas definições usamos as tags <q>dl</q> e dentro dela colocamos a tag <q>dt</q> para conter o termo e <q>dd</q> para sua definição, ex:</p>
     <p>
         <pre>
-    &lt;dl&gt;
-        &lt;dt&gt;Digite o termo aqui:&lt;/dt&gt;
-        &lt;dd&gt;Digite a definição do termo aqui&lt;/dd&gt;
-    &lt;/dl&gt;
+&lt;dl&gt;
+    &lt;dt&gt;Programação&lt;/dt&gt;
+    &lt;dd&gt;Programação é o processo de criação de um conjunto de instruções que dizem ao computador como realizar uma tarefa. Programação pode ser feita usando uma variedade de "idiomas" do computador, tais como SQL, Java, Python e C++.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;dl&gt;
+    &lt;dt&gt;Desenvolvedor&lt;/dt&gt;
+    &lt;dd&gt;O desenvolvedor é o profissional que escreve e cria softwares, que podem ser websites, programas de computadores pessoais ou empresariais, sistemas operacionais, redes sociais, aplicativos de celular e outros dispositivos, entre outras infinitas possibilidades.&lt;/dd&gt;
+&lt;/dl&gt;
         </pre>
     </p>
     <p>
@@ -228,7 +242,7 @@
 
 
 
-    
+
     <hr>
     <h2>Adicionando imagens na página.</h2>
     <p>Para adicionar imagens na minha pagina vou usar a tag &lt;img src="Aqui vai o caminho da imagens" alt= "Descrição da imagem"&gt;</p>
