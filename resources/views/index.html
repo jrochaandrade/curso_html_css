@@ -11,7 +11,7 @@
 <body>    
     <h1>Aqui eu pretendo colocar todas as tags que aprendi em html.</h1>
     <hr>
-    <h2>Subtitulos</h2>
+    <h1>Headings (Títulos)</h1>
     <p>Para fazer um titulo coloque dentro da tag &lt;h1&gt;  &lt;/h1&gt; se quiser fazer subtitulos basta mudar o numero para 2, 3 e assim por diante até o numeral 6, lembrando que quanto maior o numero menor vai ser o tamanho do subtitulo.</p>
     <h2>Subtitulo</h2>
     <h3>Subtitulo</h3>
@@ -19,19 +19,216 @@
     <h5>Subtitulo</h5>
     <h6>Subtitulo</h6>    
     <hr>
-    <h2>Parágrafos</h2>
+    <h2>Paragraphs (parágrafos)</h2>
     <p>Você pode escrever um parágrafo de qualquer jeito. Basta colocar tudo no meio do par de tags &lt;p&gt;  &lt;/p&gt;</p>
     <p>Testando parágrafo</p>
     <hr>
-    <h2>Quebra de linha</h2>
+    <h2>Line breaks (quebra de linha)</h2>
     <p>Para fazer um quebra de linha use a tag &lt;br&gt;</p>
     <p>Testando quebra de linha <br> aqui nessa parte. </p>
     <hr>
-    <h2>Criar uma linha</h2>
+    <h2>Horizontal rules (regras horizontais)</h2>
     <p>Para criar uma linha abaixo de um parágrafo uso a tag &lt;hr&gt;</p>
     <hr>
     <h2>Comentários no código</h2>
     <p>Para fazer um comentário dentro do código coloque tudo dentro da tag &lt;!-- --&gt;</p><!--Testando comentário dentro do código-->
+    <hr>
+    <h2>Superscript and subscript (sobrescrito e subscrito)</h2>
+    <p>Para usar em formulas ex. 2<sup>2</sup> ou quando quiser que venha abaixo ex. H<sub>2</sub>O, deve se colocar para o sobrescrito (acima) dentro da tag &lt;sup&gt;DIGITE AQUI&lt;/sup&gt; e para o subscrito (abaixo) dentro das tags &lt;sub&gt;DIGITE AQUI&lt;/sub&gt;</p>
+    <hr>
+    <h2>Bbold and italic (negrito e itálico)</h2>
+    <p>Para adicionar uma palavra em <b>negrito</b> coloque ela dentro das tags &lt;b&gt; DIGITE AQUI &lt;/b&gt;</p>
+    <p>E para colocar um palabra em <i>itálico</i> colocque ela dentro das tagas &lt;i&gt; DIGITE AQUI &lt;/i&gt;</p>
+    <p>Porém essa não são as formas corredas de dar ênfase em uma palavra. Devemos utilizar marcação semântica.</p>
+    <hr>
+    <h2>Tags Strong (forte) e Emphasis (ênfase)</h2>
+    <p>Usa-se a tag strong quando queremos demonstar que aquela palavra ou fraze tem um forte importância, vamos usar a tag <q>strong</q> no lugar do negrito, <strong>tendo em vista que a palavra vai ficar negrito também</strong> colocando tudo dentro das tags &lt;strong&gt;DIGITE AQUI&lt;/strong&gt;, e emphasis para dar ênfase em uma palavra ou frase no lugar do itálico, <em>tendo em vista que ela vai ficar em itálico</em> colocando tudo dentro das tags &lt;em&gt;DIGITE AQUI&lt;/em&gt; </p>
+    <hr>
+    <h2>Quotations (citações)</h2>
+    <p>Para fazer citações longas use a tag <q>blockquote</q> coloque tudo dentro das tags &lt;blockquote cite="AQUI VAI O LINK DA CITAÇÃO"&gt;DIGITE A CITAÇÃO AQUI&LT;/blockquote&gt; o texto vai ficar como o exemplo a seguir; <blockquote cite="http://fulano.com.br/trecodotexto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed at vel nobis itaque, explicabo eaque maxime aperiam facere totam libero nisi voluptatum sit in ducimus ratione ea suscipit neque iusto.</blockquote></p>
+    <p>Para citações curtas use a tag <q>q</q> colocando dentro das tags &lt;q&gt;DIGITE AQUI&lt;/q&gt; conforme o próximo exemplo; Fulano de tal disse <q>aqui vai um exemplo de citação curta.</q></p>
+    <hr>
+    <h2>Abreviations and acronims (abreviações e acrônimos)</h2>
+    <p>Para usar uma abreviação usamos a tag <q>abbr</q> ex: O <abbr title="Professor">Prof </abbr>Gustavo Guanabara fez um curso de HTML no canal <q>Curso em vídeo.</q></p>
+    <p>Também se usa a tag <q>abbr</q> em acrônimos ex: Os <abbr title="Estados Unidos da América"> EUA </abbr>era a grande potência mundial!</p>
+    <hr>
+    <h2>Citations and definitions (citações e definições)</h2>
+    <p>Para fazer refência a um trabalho como um livro, filme ou trabalho de pesquisa use a tag <q>cite</q> ex: <cite>A Casa do Dragão</cite> by George R.R. Martin. Colocando dentro da tag &lt;cite&gt;DIGITE AQUI&lt;/cite&gt;</p>
+    <p>Para definir uma nova terminologia ou um novo jargão se usa <q>dfn</q> ex: Um <dfn>buraco negro</dfn> é uma região do espaço da qual nada, nem mesmo a luz, pode escapar. colocando a frase ou palavra dentro das tags &lt;dfn&gt;DIGITE AQUI&lt;/dfn&gt;</p>
+    <hr>
+    <h2>Author details (detalhes do autor)</h2>
+    <p>A tag <q>address</q> tem um uso bastante específico de conter detalhes de contato do autor da página, ex: 
+    <address>
+        <p><a href="mailto:emailteste@gmail.com">emailteste@gmail.com</a></p>
+        <p>896 Rua das Pedras, Araça.</p>
+    </address>
+    </p>
+    <hr>
+    <h2>Changes to content (mudança de conteúdo)</h2>
+    <p>Usamos os elementos <q>ins</q> e <q>del</q> quando queremos demonstar um conteúdo que foi alterado no texto ex: Era a <del>pior</del> <ins>melhor</ins> idéia que ela tinha.</p> 
+    <p>Para marcar algo que vamos retirar usamos a tag &lt;del&gt;DIGITE AQUI&lt;/del&gt; e para adicionar usamos a tag &lt;ins&gt;DIGITE AQUI&lt;/ins&gt;</p>
+    <p>Usmos também a tag <q>s</q> para indicar um conteúdo que não é mais relevante ou preciso mas que não deve ser deletado deve ser colocado dentro das tags &lt;s&gt;DIGITE AQUI&lt;/s&gt; ex: 
+    <p>Computador:</p>
+    <p><s>Era R$9.999,00.</s></p>
+    <p>Agora é R$999,99</p>
+    </p>
+    <h2>Ordered lists (listar ordenadas)</h2>
+    <p>Para criar uma lista ordenadas colocamos dentro das tags &lt;ol&gt;DIGITE AQUI&lt;/ol&gt; e dentro dessa tag cada item vai dentro de outra tag &lt;li&gt;CONTEÚDO DAS LISTAS&lt;/li&gt;</p> 
+    <p>Nesso código também usamos a tag <q>pre</q> que deixa o texto com a mesma identação do código.</p>    
+    <p>
+        <pre>
+    &lt;pre&gt;         
+        &lt;ol&gt;
+            &lt;li&gt;Acordar&lt;/li&gt;
+            &lt;li&gt;Tomar café&lt;/li&gt;
+            &lt;li&gt;Estudar&lt;/li&gt;
+            &lt;li&gt;Trabalhar&lt;/li&gt;
+            &lt;li&gt;Dormir&lt;/li&gt;
+        &lt;/ol&gt;  
+    &lt;/pre&gt;        
+        </pre>
+    </p>    
+    <p>
+        <ol>
+            <li>Acordar</li>
+            <li>Tomar café</li>
+            <li>Estudar</li>
+            <li>Trabalhar</li>
+            <li>Dormir</li>
+        </ol>
+    </p>
+    <p>Para mudar o estilo da lista basta acrescentar o <q>type="Pode ser 1, A, a, I e i"</q></p>
+    <p>
+        <pre>
+    &lt;pre&gt;         
+        &lt;ol type="A"&gt;
+            &lt;li&gt;Acordar&lt;/li&gt;
+            &lt;li&gt;Tomar café&lt;/li&gt;
+            &lt;li&gt;Estudar&lt;/li&gt;
+            &lt;li&gt;Trabalhar&lt;/li&gt;
+            &lt;li&gt;Dormir&lt;/li&gt;
+        &lt;/ol&gt;  
+    &lt;/pre&gt;        
+        </pre>
+    </p>
+    <p>
+        <ol type="A">
+            <li>Acordar</li>
+            <li>Tomar café</li>
+            <li>Estudar</li>
+            <li>Trabalhar</li>
+            <li>Dormir</li>
+        </ol>
+    </p>
+    <p>E se quiser começar de uma numero ou letra expecifico basta acrescentar <q>start="3" após o st</q> </p>
+    <p>
+        <pre>
+    &lt;pre&gt;         
+        &lt;ol type="1" start="3"&gt;
+            &lt;li&gt;Acordar&lt;/li&gt;
+            &lt;li&gt;Tomar café&lt;/li&gt;
+            &lt;li&gt;Estudar&lt;/li&gt;
+            &lt;li&gt;Trabalhar&lt;/li&gt;
+            &lt;li&gt;Dormir&lt;/li&gt;
+        &lt;/ol&gt;  
+    &lt;/pre&gt;        
+        </pre>
+    </p>    
+    <p>
+        <ol type="1" start="3">
+            <li>Acordar</li>
+            <li>Tomar café</li>
+            <li>Estudar</li>
+            <li>Trabalhar</li>
+            <li>Dormir</li>
+        </ol>
+    </p>
+    <hr>
+    <h2>Unordered lists (listas desordenadas)</h2>
+    <p>Para criar uma lista desordenadas colocamos dentro das tags &lt;ul&gt;DIGITE AQUI&lt;/ul&gt; e dentro dessa tag cada item vai dentro de outra tag &lt;li&gt;CONTEÚDO DAS LISTAS&lt;/li&gt;</p>
+    <p>Nesso código também usamos a tag <q>pre</q> que deixa o texto com a mesma identação do código.</p>    
+    <p>
+        <pre>
+    &lt;pre&gt;         
+        &lt;ul&gt;
+            &lt;li&gt;Acordar&lt;/li&gt;
+            &lt;li&gt;Tomar café&lt;/li&gt;
+            &lt;li&gt;Estudar&lt;/li&gt;
+            &lt;li&gt;Trabalhar&lt;/li&gt;
+            &lt;li&gt;Dormir&lt;/li&gt;
+        &lt;/ul&gt;  
+    &lt;/pre&gt;        
+        </pre>
+    </p>    
+    <p>
+        <ul>
+            <li>Acordar</li>
+            <li>Tomar café</li>
+            <li>Estudar</li>
+            <li>Trabalhar</li>
+            <li>Dormir</li>
+        </ul>
+    </p>
+    <p>Para mudar o estilo da lista basta acrescentar o <q>type="Pode ser disc, circle, square"</q></p>
+    <p>
+        <pre>
+    &lt;pre&gt;         
+        &lt;ul type="circle"&gt;
+            &lt;li&gt;Acordar&lt;/li&gt;
+            &lt;li&gt;Tomar café&lt;/li&gt;
+            &lt;li&gt;Estudar&lt;/li&gt;
+            &lt;li&gt;Trabalhar&lt;/li&gt;
+            &lt;li&gt;Dormir&lt;/li&gt;
+        &lt;/ul&gt;  
+    &lt;/pre&gt;        
+        </pre>
+    </p>
+    <p>
+        <ul type="circle">
+            <li>Acordar</li>
+            <li>Tomar café</li>
+            <li>Estudar</li>
+            <li>Trabalhar</li>
+            <li>Dormir</li>
+        </ul>
+    </p>
+    <hr>
+    <h2>Definition lists (listas de definições)</h2>
+    <p>Quando queremos usar um série de termos e suas definições usamos as tags <q>dl</q> e dentro dela colocamos a tag <q>dt</q> para conter o termo e <q>dd</q> para sua definição, ex:</p>
+    <p>
+        <pre>
+    &lt;dl&gt;
+        &lt;dt&gt;Digite o termo aqui:&lt;/dt&gt;
+        &lt;dd&gt;Digite a definição do termo aqui&lt;/dd&gt;
+    &lt;/dl&gt;
+        </pre>
+    </p>
+    <p>
+        <dl>
+            <dt>Programação</dt>
+            <dd>Programação é o processo de criação de um conjunto de instruções que dizem ao computador como realizar uma tarefa. Programação pode ser feita usando uma variedade de "idiomas" do computador, tais como SQL, Java, Python e C++.</dd>
+            <dt>Desenvolvedor</dt>
+            <dd>O desenvolvedor é o profissional que escreve e cria softwares, que podem ser websites, programas de computadores pessoais ou empresariais, sistemas operacionais, redes sociais, aplicativos de celular e outros dispositivos, entre outras infinitas possibilidades.</dd>
+        </dl>
+    </p>
+    <hr>
+    <h2>Nested lists (listas aninhadas)</h2>
+    <p>Podemos fazer uma segunda lista dentro de outra.</p> 
+    <ul>
+        <li>Banana</li>
+        <li>Maça</li>
+        <li>Arroz</li>
+        <li>Lasanha</li>
+            <ul>
+                <li>Massa de lasanha</li>
+                <li>Molho de tomate</li>
+                <li>Queijo</li>
+            </ul>
+    </ul>
+
+
+
+    
     <hr>
     <h2>Adicionando imagens na página.</h2>
     <p>Para adicionar imagens na minha pagina vou usar a tag &lt;img src="Aqui vai o caminho da imagens" alt= "Descrição da imagem"&gt;</p>
