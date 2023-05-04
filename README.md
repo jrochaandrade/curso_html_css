@@ -12,6 +12,6 @@
 </head>
 <body>
     <h1>Link para página incial.</h1>
-    <p><a href="index.html">Click aqui</a> para acessar a página inícial.</p>
+    <p><a href="https://jrochaandrade.github.io/curso_html_css/resources/views/">Click aqui</a> para acessar a página inícial.</p>
 </body>
 </html>
