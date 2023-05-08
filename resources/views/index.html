@@ -287,6 +287,23 @@
     <img src="/pictures/logohtml5.png" width="200" height="200" alt="Logo HTML5">    
     <p class="amarelo">Também é possivel adicionar uma imagem direto da internet, &lt;img src="URL da imagem" alt= "Descrição da imagem"&gt; no lugar do caminha coloque a URL da imagem. </p>
     <img src="https://casinodeps.co.nz/wp-content/uploads/top-paying-casinos-nz.png" width="200" height="200" alt="Logo">
+    <br>
+    <hr>
+    <h2>Imagens dinâmicas</h2>
+    <p>Para adicionar imagens que se alteram de acordo com o tamanho da tela coloque faça conforme o código abaixo:</p>
+    <pre>
+        &lt;picture&gt;
+            &lt;source media="(max-width: 500px)" srcset="/pictures/foto-p.png" type="image/png"&gt;
+            &lt;source media="(max-width: 1050px)" srcset="/pictures/foto-m.png" type="image/png"&gt;
+            &lt;img src="pictures/foto-g.png" alt="Imagem flexível"&gt;
+        &lt;/picture&gt;
+
+        <picture>
+            <source media="(max-width: 500px)" srcset="/pictures/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="/pictures/foto-m.png" type="image/png">
+            <img src="pictures/foto-g.png" alt="Imagem flexível">
+        </picture>
+    </pre>
     
     
     
