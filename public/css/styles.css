@@ -44,6 +44,10 @@ h2 {
     color: #F2B705;
 }
 
+h2#alinhamento{
+    text-align: right;
+}
+
 /* Todos os parágrados justificados */
 p {
     text-align: justify;
