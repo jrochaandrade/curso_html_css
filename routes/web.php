@@ -17,8 +17,8 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('pag02', function () {
-    return view('ex002');
+Route::get('pagina02', function () {
+    return view('pagina02');
 });
 
 Route::get('pag03', function () {
