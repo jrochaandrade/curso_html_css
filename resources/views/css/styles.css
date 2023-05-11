@@ -11,9 +11,34 @@
 
 /* Criando variável global e definindo a fonte de todo o site*/
 * {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;    
     
-    
+}
+
+header {
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: #206170;       
+    margin: auto;
+    padding: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
 }
 /* Definindo um fundo com degrade para direite com duas cores */
 body {
@@ -27,7 +52,7 @@ main {
     background-color: white; /* cor de fundo */
     border-radius: 10px; /* raio da borda */
     box-shadow: 5px 5px 15px #277d90ba; /* Sombra da caixa */
-    width: 1200px; /* largura */
+    /* width: 1200px; */ /* largura */
     padding: 10px; /* preenchimento */
     margin: auto;   /* margem */
 }
@@ -42,6 +67,10 @@ h1 {
 /* Definindo a cor do h2 */
 h2 {
     color: #F2B705;
+}
+
+h2#alinhamento{
+    text-align: right;
 }
 
 /* Todos os parágrados justificados */
