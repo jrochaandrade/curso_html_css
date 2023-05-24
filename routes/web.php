@@ -21,6 +21,7 @@ Route::get('pagina02', function () {
     return view('pagina02');
 });
 
-Route::get('pag03', function () {
-    return view('ex003');
+Route::get('pagina03', function () {
+    return view('d010/index');
 });
+
