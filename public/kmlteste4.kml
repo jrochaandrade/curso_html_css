@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="poligonosautuados2023" id="poligonosautuados2023">
+	<SimpleField name="id" type="float"></SimpleField>
+	<SimpleField name="ID_CADAST" type="string"></SimpleField>
+	<SimpleField name="NOME" type="string"></SimpleField>
+	<SimpleField name="CPF_CNPJ" type="string"></SimpleField>
+	<SimpleField name="ENDERECO" type="string"></SimpleField>
+	<SimpleField name="MUNICIPIO" type="string"></SimpleField>
+	<SimpleField name="AREA" type="float"></SimpleField>
+	<SimpleField name="NUM_AUT" type="string"></SimpleField>
+	<SimpleField name="ENQUAD_AUT" type="string"></SimpleField>
+	<SimpleField name="NUM_EMBARG" type="string"></SimpleField>
+	<SimpleField name="EQUIPE" type="string"></SimpleField>
+	<SimpleField name="NUM_BO_BOA" type="string"></SimpleField>
+	<SimpleField name="ENQUA_BOA" type="string"></SimpleField>
+	<SimpleField name="COOR_CENTR" type="string"></SimpleField>
+	<SimpleField name="DATA" type="string"></SimpleField>
+	<SimpleField name="HORA" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_01" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA01" type="string"></SimpleField>
+	<SimpleField name="ORBITA-01" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_02" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA02" type="string"></SimpleField>
+	<SimpleField name="ORBITA-02" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_03" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA03" type="string"></SimpleField>
+	<SimpleField name="ORBITA-03" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_04" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA04" type="string"></SimpleField>
+	<SimpleField name="ORBITA-04" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_05" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA05" type="string"></SimpleField>
+	<SimpleField name="ORBITA-05" type="string"></SimpleField>
+	<SimpleField name="INFRACAO" type="string"></SimpleField>
+	<SimpleField name="INICIO-DES" type="string"></SimpleField>
+	<SimpleField name="TIPO-DESM" type="string"></SimpleField>
+	<SimpleField name="AREA-APP" type="string"></SimpleField>
+	<SimpleField name="AREA-QUEIM" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG01" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG02" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG03" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG04" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG05" type="string"></SimpleField>
+	<SimpleField name="ID-ALERTA" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+	<SimpleField name="FOTO-01" type="string"></SimpleField>
+	<SimpleField name="ROTUL-FT01" type="string"></SimpleField>
+	<SimpleField name="FOTO-02" type="string"></SimpleField>
+	<SimpleField name="ROTUL-FT02" type="string"></SimpleField>
+	<SimpleField name="FOTO-03" type="string"></SimpleField>
+	<SimpleField name="ROTUL-FT03" type="string"></SimpleField>
+	<SimpleField name="FOTO-04" type="string"></SimpleField>
+	<SimpleField name="ROTUL-FT04" type="string"></SimpleField>
+	<SimpleField name="ANEXO" type="string"></SimpleField>
+</Schema>
+<Folder><name>poligonosautuados2023</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#poligonosautuados2023">
+		<SimpleData name="id">6</SimpleData>
+		<SimpleData name="ID_CADAST">JIPA-2023-JPRA006</SimpleData>
+		<SimpleData name="NOME">Gilberto das Neves Rufino</SimpleData>
+		<SimpleData name="CPF_CNPJ">468.966.782-91</SimpleData>
+		<SimpleData name="ENDERECO">Ramal 2 do Km05 - Lote 61F Gleba Pyrineos</SimpleData>
+		<SimpleData name="MUNICIPIO">Ji-Paraná</SimpleData>
+		<SimpleData name="AREA">6.023</SimpleData>
+		<SimpleData name="NUM_AUT">009998</SimpleData>
+		<SimpleData name="ENQUAD_AUT">Art. 43 e 51 do Decreto Federal 6.514/2008</SimpleData>
+		<SimpleData name="NUM_EMBARG">005686</SimpleData>
+		<SimpleData name="EQUIPE">Sgt Eterno - JP</SimpleData>
+		<SimpleData name="NUM_BO_BOA">3144500224</SimpleData>
+		<SimpleData name="ENQUA_BOA">Art. 38 e 50 da Lei Federal 9.605/1998</SimpleData>
+		<SimpleData name="COOR_CENTR">10° 51' 38.917&quot; S, 62° 1' 4.916&quot; W</SimpleData>
+		<SimpleData name="DATA">17/03/2023</SimpleData>
+		<SimpleData name="HORA">18:13</SimpleData>
+		<SimpleData name="IMAGEM_01">Satélite Planet</SimpleData>
+		<SimpleData name="DATA-IMA01">25/02/2023</SimpleData>
+		<SimpleData name="IMAGEM_02">Satélite Sentinel</SimpleData>
+		<SimpleData name="DATA-IMA02">17/09/2022</SimpleData>
+		<SimpleData name="ORBITA-02">20LPP</SimpleData>
+		<SimpleData name="IMAGEM_03">Satélite Sentinel</SimpleData>
+		<SimpleData name="DATA-IMA03">29/07/2020</SimpleData>
+		<SimpleData name="ORBITA-03">20LPP</SimpleData>
+		<SimpleData name="IMAGEM_04">Satélite Sentinel</SimpleData>
+		<SimpleData name="DATA-IMA04">20/07/2018</SimpleData>
+		<SimpleData name="ORBITA-04">20LPP</SimpleData>
+		<SimpleData name="IMAGEM_05">Satélite Spot</SimpleData>
+		<SimpleData name="DATA-IMA05">08/2008</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-62.0170450448449,-10.8629634557958 -62.0183333866481,-10.8634468417319 -62.018589466361,-10.8617879220364 -62.0185055902313,-10.8617779541829 -62.0184984678251,-10.8617747364509 -62.0184805191171,-10.8617731047486 -62.0184463981091,-10.8617638943307 -62.0184004465394,-10.8617607111441 -62.0183783572372,-10.8617534717489 -62.0183605308612,-10.8617540281458 -62.0182907063422,-10.8617378303313 -62.0182594065901,-10.8617218680044 -62.0182216940521,-10.8617358184749 -62.0181768120175,-10.8617488216782 -62.0181583812193,-10.8617534822561 -62.0181045271583,-10.8617651267717 -62.0180726063687,-10.8617715615066 -62.0179866534553,-10.8617872267512 -62.0179516506667,-10.8617925605072 -62.0179342422989,-10.8618056167868 -62.0179103536652,-10.8618458520496 -62.0178652640665,-10.8618921473079 -62.017831287964,-10.8619196218196 -62.0177790483178,-10.861953043016 -62.0177440839031,-10.8619803303111 -62.0176593615873,-10.8621213916499 -62.0176289892328,-10.8622161902111 -62.0176602819617,-10.8622981035311 -62.0176704060799,-10.8623735742303 -62.0175857316368,-10.8624545671759 -62.0174789682086,-10.8624214336981 -62.0174531977259,-10.8623625297377 -62.017424242151,-10.8623166960447 -62.0173240503618,-10.8623847774926 -62.0172536057816,-10.8624048727098 -62.0172122913997,-10.8624109187184 -62.0171911695754,-10.8624249012638 -62.0171241638847,-10.8624442129641 -62.0170450448449,-10.8629634557958</coordinates></LinearRing></outerBoundaryIs></Polygon><Polygon><outerBoundaryIs><LinearRing><coordinates>-62.0172487595665,-10.8616256549988 -62.0172977837618,-10.8615876831436 -62.0173794581845,-10.8615445114118 -62.0174331779724,-10.8615045043512 -62.0174836151691,-10.8614755103434 -62.0175178781489,-10.8614317407032 -62.0175642533473,-10.8613869493579 -62.0175980450364,-10.8613571805012 -62.0176234658205,-10.8613341429253 -62.0176724382565,-10.8612987527742 -62.0176976057163,-10.8612844912148 -62.0178001343138,-10.8612506458906 -62.0179197358824,-10.8612359004828 -62.0179667173299,-10.861229107982 -62.0180356458567,-10.8612087291073 -62.0180914699092,-10.8611883056704 -62.018150548854,-10.8611642076772 -62.0182729231161,-10.8611442594107 -62.0183123521252,-10.8611467761529 -62.0183945367245,-10.8611648114148 -62.0184503263669,-10.8611968583378 -62.0184825054886,-10.861200296512 -62.018528200294,-10.8612096885261 -62.0186168966485,-10.8611828417668 -62.0186769888614,-10.8611851408106 -62.0186816674312,-10.8611847956702 -62.0190530652557,-10.8587739854971 -62.0176714279043,-10.8588509626408 -62.0172487595665,-10.8616256549988</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
