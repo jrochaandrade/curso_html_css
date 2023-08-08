@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="poligonodesmatejp" id="poligonodesmatejp">
+	<SimpleField name="id" type="float"></SimpleField>
+	<SimpleField name="ID_CADAST" type="string"></SimpleField>
+	<SimpleField name="NOME" type="string"></SimpleField>
+	<SimpleField name="CPF_CNPJ" type="string"></SimpleField>
+	<SimpleField name="ENDERECO" type="string"></SimpleField>
+	<SimpleField name="MUNICIPIO" type="string"></SimpleField>
+	<SimpleField name="AREA" type="float"></SimpleField>
+	<SimpleField name="NUM_AUT" type="string"></SimpleField>
+	<SimpleField name="ENQUAD_AUT" type="string"></SimpleField>
+	<SimpleField name="NUM_EMBARG" type="string"></SimpleField>
+	<SimpleField name="EQUIPE" type="string"></SimpleField>
+	<SimpleField name="NUM_BO_BOA" type="string"></SimpleField>
+	<SimpleField name="ENQUA_BOA" type="string"></SimpleField>
+	<SimpleField name="COOR_CENTR" type="string"></SimpleField>
+	<SimpleField name="DATA" type="string"></SimpleField>
+	<SimpleField name="HORA" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_01" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA01" type="string"></SimpleField>
+	<SimpleField name="ORBITA-01" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_02" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA02" type="string"></SimpleField>
+	<SimpleField name="ORBITA-02" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_03" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA03" type="string"></SimpleField>
+	<SimpleField name="ORBITA-03" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_04" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA04" type="string"></SimpleField>
+	<SimpleField name="ORBITA-04" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_05" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA05" type="string"></SimpleField>
+	<SimpleField name="ORBITA-05" type="string"></SimpleField>
+	<SimpleField name="INFRACAO" type="string"></SimpleField>
+	<SimpleField name="INICIO-DES" type="string"></SimpleField>
+	<SimpleField name="TIPO-DESM" type="string"></SimpleField>
+	<SimpleField name="AREA-APP" type="string"></SimpleField>
+	<SimpleField name="AREA-QUEIM" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG01" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG02" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG03" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG04" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG05" type="string"></SimpleField>
+	<SimpleField name="ID-ALERTA" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+	<SimpleField name="FOTO-01" type="string"></SimpleField>
+	<SimpleField name="ROTUL-FT01" type="string"></SimpleField>
+	<SimpleField name="FOTO-02" type="string"></SimpleField>
+	<SimpleField name="ROTUL-FT02" type="string"></SimpleField>
+	<SimpleField name="FOTO-03" type="string"></SimpleField>
+	<SimpleField name="ROTUL-FT03" type="string"></SimpleField>
+	<SimpleField name="FOTO-04" type="string"></SimpleField>
+	<SimpleField name="ROTUL-FT04" type="string"></SimpleField>
+	<SimpleField name="ANEXO" type="string"></SimpleField>
+</Schema>
+<Folder><name>poligonodesmatejp</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#poligonodesmatejp">
+		<SimpleData name="id">600</SimpleData>
+		<SimpleData name="ID_CADAST">JIPA-2023-JPRA</SimpleData>
+		<SimpleData name="NOME">José das Flores</SimpleData>
+		<SimpleData name="CPF_CNPJ">123.456.789-98</SimpleData>
+		<SimpleData name="ENDERECO">Linha Maracatiara km26 - lote10</SimpleData>
+		<SimpleData name="MUNICIPIO">Ji-Paraná</SimpleData>
+		<SimpleData name="AREA">25.413</SimpleData>
+		<SimpleData name="NUM_AUT">123456</SimpleData>
+		<SimpleData name="ENQUAD_AUT">Art. XX do Decreto Federal 6.514/2008</SimpleData>
+		<SimpleData name="NUM_EMBARG">123456</SimpleData>
+		<SimpleData name="EQUIPE">JP</SimpleData>
+		<SimpleData name="NUM_BO_BOA">123456789</SimpleData>
+		<SimpleData name="ENQUA_BOA">Art. XX da Lei Federal 9.605/1998</SimpleData>
+		<SimpleData name="COOR_CENTR">10°29′52,12″S,61°54′49,30″W</SimpleData>
+		<SimpleData name="DATA">08/08/23</SimpleData>
+		<SimpleData name="HORA">07:50</SimpleData>
+		<SimpleData name="IMAGEM_01">Satélite</SimpleData>
+		<SimpleData name="DATA-IMA01">01/01/2023</SimpleData>
+		<SimpleData name="ORBITA-01">20LNN</SimpleData>
+		<SimpleData name="IMAGEM_02">Satélite</SimpleData>
+		<SimpleData name="DATA-IMA02">01/01/2023</SimpleData>
+		<SimpleData name="ORBITA-02">20LNN</SimpleData>
+		<SimpleData name="IMAGEM_03">Satélite</SimpleData>
+		<SimpleData name="DATA-IMA03">01/01/2023</SimpleData>
+		<SimpleData name="ORBITA-03">20LNN</SimpleData>
+		<SimpleData name="IMAGEM_04">Satélite</SimpleData>
+		<SimpleData name="DATA-IMA04">01/01/2023</SimpleData>
+		<SimpleData name="ORBITA-04">20LNN</SimpleData>
+		<SimpleData name="IMAGEM_05">Satélite Spot</SimpleData>
+		<SimpleData name="DATA-IMA05">08/2008</SimpleData>
+		<SimpleData name="ORBITA-05">20LNN</SimpleData>
+		<SimpleData name="INFRACAO">Desmate</SimpleData>
+		<SimpleData name="INICIO-DES">01/02/2023</SimpleData>
+		<SimpleData name="TIPO-DESM">hectares de vegetação nativa em área de reserva legal</SimpleData>
+		<SimpleData name="AREA-APP">&lt;strong&gt;3,45&lt;/strong&gt; Hectares de vegetação em área de app</SimpleData>
+		<SimpleData name="OBS-IMG01">na área delimitada não apresenta densidade de vegetação, dano ambiental.</SimpleData>
+		<SimpleData name="OBS-IMG02">na área delimitada apresenta alta densidade de vegetação com caracteristicas de vegetação nativa preservada.</SimpleData>
+		<SimpleData name="OBS-IMG03">na área delimitada apresenta alta densidade de vegetação com caracteristicas de vegetação nativa preservada.</SimpleData>
+		<SimpleData name="OBS-IMG04">na área delimitada apresenta alta densidade de vegetação com caracteristicas de vegetação nativa preservada.</SimpleData>
+		<SimpleData name="OBS-IMG05">na área delimitada apresenta alta densidade de vegetação com caracteristicas de vegetação nativa preservada.</SimpleData>
+		<SimpleData name="ID-ALERTA">12312132131321</SimpleData>
+		<SimpleData name="ROTUL-FT01">Imagem realizada com drone do dano ambiental.</SimpleData>
+		<SimpleData name="ROTUL-FT02">Imagem realizada com drone do dano ambiental.</SimpleData>
+		<SimpleData name="ROTUL-FT03">Imagem realizada com drone do dano ambiental.</SimpleData>
+		<SimpleData name="ROTUL-FT04">Imagem realizada com drone do dano ambiental.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-61.9163242345918,-10.4956869557448 -61.9170233871059,-10.4991534776566 -61.9108948492657,-10.4998793543633 -61.9104739345428,-10.4964795263565 -61.9163242345918,-10.4956869557448</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#poligonodesmatejp">
+		<SimpleData name="id">23</SimpleData>
+		<SimpleData name="ID_CADAST">JIPA-2023-JPRA</SimpleData>
+		<SimpleData name="AREA">10.609</SimpleData>
+		<SimpleData name="ENQUAD_AUT">Art. XX do Decreto Federal 6.514/2008</SimpleData>
+		<SimpleData name="ENQUA_BOA">Art. XX da Lei Federal 9.605/1998</SimpleData>
+		<SimpleData name="COOR_CENTR">11°8′9,40″S,61°55′35,89″W</SimpleData>
+		<SimpleData name="DATA">02/08/23</SimpleData>
+		<SimpleData name="HORA">10:19</SimpleData>
+		<SimpleData name="IMAGEM_01">Satélite</SimpleData>
+		<SimpleData name="IMAGEM_02">Satélite</SimpleData>
+		<SimpleData name="IMAGEM_03">Satélite</SimpleData>
+		<SimpleData name="IMAGEM_04">Satélite</SimpleData>
+		<SimpleData name="IMAGEM_05">Satélite Spot</SimpleData>
+		<SimpleData name="DATA-IMA05">08/2008</SimpleData>
+		<SimpleData name="TIPO-DESM">hectares de vegetação nativa em área de reserva legal</SimpleData>
+		<SimpleData name="OBS-IMG01">na área delimitada não apresenta densidade de vegetação, dano ambiental.</SimpleData>
+		<SimpleData name="OBS-IMG02">na área delimitada apresenta alta densidade de vegetação com caracteristicas de vegetação nativa preservada.</SimpleData>
+		<SimpleData name="OBS-IMG03">na área delimitada apresenta alta densidade de vegetação com caracteristicas de vegetação nativa preservada.</SimpleData>
+		<SimpleData name="OBS-IMG04">na área delimitada apresenta alta densidade de vegetação com caracteristicas de vegetação nativa preservada.</SimpleData>
+		<SimpleData name="OBS-IMG05">na área delimitada apresenta alta densidade de vegetação com caracteristicas de vegetação nativa preservada.</SimpleData>
+		<SimpleData name="ROTUL-FT01">Imagem realizada com drone do dano ambiental.</SimpleData>
+		<SimpleData name="ROTUL-FT02">Imagem realizada com drone do dano ambiental.</SimpleData>
+		<SimpleData name="ROTUL-FT03">Imagem realizada com drone do dano ambiental.</SimpleData>
+		<SimpleData name="ROTUL-FT04">Imagem realizada com drone do dano ambiental.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-61.9276775569281,-11.1375611866218 -61.9276955227187,-11.1367167944649 -61.9280907701113,-11.1360340944232 -61.928773470153,-11.1346147969681 -61.9282883938076,-11.1344710706435 -61.9277494200904,-11.1348842838266 -61.9272463779544,-11.1346147969681 -61.9267433358184,-11.1346147969681 -61.9259169094521,-11.1344171732718 -61.9253420041538,-11.1345968311775 -61.925000654133,-11.1351897022664 -61.9249108251801,-11.1361239233761 -61.925503696269,-11.1372018708104 -61.9263301226353,-11.1377408445275 -61.9276775569281,-11.1375611866218</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>

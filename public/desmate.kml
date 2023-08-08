@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="poligonosautuados2023" id="poligonosautuados2023">
+	<SimpleField name="id" type="float"></SimpleField>
+	<SimpleField name="ID_CADAST" type="string"></SimpleField>
+	<SimpleField name="NOME" type="string"></SimpleField>
+	<SimpleField name="CPF_CNPJ" type="string"></SimpleField>
+	<SimpleField name="ENDERECO" type="string"></SimpleField>
+	<SimpleField name="MUNICIPIO" type="string"></SimpleField>
+	<SimpleField name="AREA" type="float"></SimpleField>
+	<SimpleField name="NUM_AUT" type="string"></SimpleField>
+	<SimpleField name="ENQUAD_AUT" type="string"></SimpleField>
+	<SimpleField name="NUM_EMBARG" type="string"></SimpleField>
+	<SimpleField name="EQUIPE" type="string"></SimpleField>
+	<SimpleField name="NUM_BO_BOA" type="string"></SimpleField>
+	<SimpleField name="ENQUA_BOA" type="string"></SimpleField>
+	<SimpleField name="COOR_CENTR" type="string"></SimpleField>
+	<SimpleField name="DATA" type="string"></SimpleField>
+	<SimpleField name="HORA" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_01" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA01" type="string"></SimpleField>
+	<SimpleField name="ORBITA-01" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_02" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA02" type="string"></SimpleField>
+	<SimpleField name="ORBITA-02" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_03" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA03" type="string"></SimpleField>
+	<SimpleField name="ORBITA-03" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_04" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA04" type="string"></SimpleField>
+	<SimpleField name="ORBITA-04" type="string"></SimpleField>
+	<SimpleField name="IMAGEM_05" type="string"></SimpleField>
+	<SimpleField name="DATA-IMA05" type="string"></SimpleField>
+	<SimpleField name="ORBITA-05" type="string"></SimpleField>
+	<SimpleField name="INFRACAO" type="string"></SimpleField>
+	<SimpleField name="INICIO-DES" type="string"></SimpleField>
+	<SimpleField name="TIPO-DESM" type="string"></SimpleField>
+	<SimpleField name="AREA-APP" type="string"></SimpleField>
+	<SimpleField name="AREA-QUEIM" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG01" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG02" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG03" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG04" type="string"></SimpleField>
+	<SimpleField name="OBS-IMG05" type="string"></SimpleField>
+	<SimpleField name="ID-ALERTA" type="string"></SimpleField>
+	<SimpleField name="OBS" type="string"></SimpleField>
+	<SimpleField name="FOTO-01" type="string"></SimpleField>
+	<SimpleField name="ROTUL-FT01" type="string"></SimpleField>
+	<SimpleField name="FOTO-02" type="string"></SimpleField>
+	<SimpleField name="ROTUL-FT02" type="string"></SimpleField>
+	<SimpleField name="FOTO-03" type="string"></SimpleField>
+	<SimpleField name="ROTUL-FT03" type="string"></SimpleField>
+	<SimpleField name="FOTO-04" type="string"></SimpleField>
+	<SimpleField name="ROTUL-FT04" type="string"></SimpleField>
+	<SimpleField name="ANEXO" type="string"></SimpleField>
+</Schema>
+<Folder><name>poligonosautuados2023</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#poligonosautuados2023">
+		<SimpleData name="id">19</SimpleData>
+		<SimpleData name="ID_CADAST">JIPA-2023-JPRA019</SimpleData>
+		<SimpleData name="NOME">Jhonatas Silveira Kruguel</SimpleData>
+		<SimpleData name="CPF_CNPJ">016.506.552-40</SimpleData>
+		<SimpleData name="ENDERECO">Linha 206 - km 25</SimpleData>
+		<SimpleData name="MUNICIPIO">Ji-Paraná</SimpleData>
+		<SimpleData name="AREA">14.327</SimpleData>
+		<SimpleData name="NUM_AUT">102812</SimpleData>
+		<SimpleData name="ENQUAD_AUT">Art. 48 do Decreto Federal 6.514/2008</SimpleData>
+		<SimpleData name="NUM_EMBARG">007768</SimpleData>
+		<SimpleData name="EQUIPE">GB - Desmatamento - 2 Etapa 2023 - SGT Da Silva-JP</SimpleData>
+		<SimpleData name="NUM_BO_BOA">3147400295</SimpleData>
+		<SimpleData name="ENQUA_BOA">Art. 48 da Lei Federal 9.605/1998</SimpleData>
+		<SimpleData name="COOR_CENTR">10° 29' 46.368&quot; S, 61° 54' 24.026&quot; W</SimpleData>
+		<SimpleData name="DATA">29/06/23</SimpleData>
+		<SimpleData name="HORA">12:01</SimpleData>
+		<SimpleData name="IMAGEM_01">Satélite Sentinel</SimpleData>
+		<SimpleData name="DATA-IMA01">24/06/2023</SimpleData>
+		<SimpleData name="ORBITA-01">20LPP</SimpleData>
+		<SimpleData name="IMAGEM_02">Satélite Sentinel</SimpleData>
+		<SimpleData name="DATA-IMA02">17/09/2022</SimpleData>
+		<SimpleData name="ORBITA-02">20LPP</SimpleData>
+		<SimpleData name="IMAGEM_03">Satélite Sentinel</SimpleData>
+		<SimpleData name="DATA-IMA03">29/07/2020</SimpleData>
+		<SimpleData name="ORBITA-03">20LPP</SimpleData>
+		<SimpleData name="IMAGEM_04">Satélite Sentinel</SimpleData>
+		<SimpleData name="DATA-IMA04">25/07/2019</SimpleData>
+		<SimpleData name="ORBITA-04">20LPP</SimpleData>
+		<SimpleData name="IMAGEM_05">Satélite Spot</SimpleData>
+		<SimpleData name="DATA-IMA05">08/2008</SimpleData>
+		<SimpleData name="INFRACAO">Desmate</SimpleData>
+		<SimpleData name="INICIO-DES">25/07/2019</SimpleData>
+		<SimpleData name="TIPO-DESM">hectares de vegetação em avançado estágio de regeneração</SimpleData>
+		<SimpleData name="OBS-IMG01">na área delimitada apresenta não apresenta densidade de vegetação, dano ambiental.</SimpleData>
+		<SimpleData name="OBS-IMG02">na área delimitada apresenta não apresenta densidade de vegetação, dano ambiental.</SimpleData>
+		<SimpleData name="OBS-IMG03">na área delimitada apresenta não apresenta densidade de vegetação, dano ambiental.</SimpleData>
+		<SimpleData name="OBS-IMG04">na área delimitada apresenta alta densidade de vegetação com caracteristicas de vegetação em avançado estágio de regeneração.</SimpleData>
+		<SimpleData name="OBS-IMG05">na área delimitada apresenta baixa densidade de vegetação.</SimpleData>
+		<SimpleData name="FOTO-01">D:\OneDrive\João Paulo - Notebook\Documentos\03 - Ambiental\01 - QGis\01-Base_Vetorial\02-Shape-JP\03-Carta-imagem\2023\JIPA-2023-JPRA019\Imagens\1.JPG</SimpleData>
+		<SimpleData name="ROTUL-FT01">Imagem realizada com drone do dano ambiental.</SimpleData>
+		<SimpleData name="FOTO-02">D:\OneDrive\João Paulo - Notebook\Documentos\03 - Ambiental\01 - QGis\01-Base_Vetorial\02-Shape-JP\03-Carta-imagem\2023\JIPA-2023-JPRA019\Imagens\2.JPG</SimpleData>
+		<SimpleData name="ROTUL-FT02">Imagem realizada com drone do dano ambiental.</SimpleData>
+		<SimpleData name="FOTO-03">D:\OneDrive\João Paulo - Notebook\Documentos\03 - Ambiental\01 - QGis\01-Base_Vetorial\02-Shape-JP\03-Carta-imagem\2023\JIPA-2023-JPRA019\Imagens\3.JPG</SimpleData>
+		<SimpleData name="ROTUL-FT03">Imagem realizada com drone do dano ambiental.</SimpleData>
+		<SimpleData name="FOTO-04">D:\OneDrive\João Paulo - Notebook\Documentos\03 - Ambiental\01 - QGis\01-Base_Vetorial\02-Shape-JP\03-Carta-imagem\2023\JIPA-2023-JPRA019\Imagens\4.JPG</SimpleData>
+		<SimpleData name="ROTUL-FT04">Imagem realizada com drone do dano ambiental.</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-61.903780235791,-10.4973863606946 -61.9079394691866,-10.4967908640464 -61.9077074851493,-10.4960164713515 -61.907658826379,-10.49572451873 -61.9074701988658,-10.4953583546461 -61.9076924848072,-10.4951607671426 -61.9080720509409,-10.4949043484995 -61.9034999249677,-10.4961703157932 -61.9036234171574,-10.4968093878748 -61.903998352334,-10.496928848584 -61.9040168761624,-10.4971943567918 -61.903780235791,-10.4973863606946</coordinates></LinearRing></outerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-61.9059638792154,-10.49572992526 -61.9056448939438,-10.4960164713515 -61.9053205021421,-10.4960272844115 -61.9051637127713,-10.4963570827432 -61.9052339976617,-10.4965841570044 -61.9050772082909,-10.4968815161559 -61.9048339144397,-10.4968382639156 -61.9048339144397,-10.4968328573856 -61.9044933030479,-10.4966436288347 -61.9042500091967,-10.4966652549548 -61.9040121218755,-10.4967625724953 -61.9037526084342,-10.4966436288347 -61.9036390713036,-10.4963678958033 -61.9036715104838,-10.4962056999024 -61.9039472435152,-10.4962002933724 -61.9042716353168,-10.4962219194925 -61.9046663120088,-10.4960380974716 -61.9052664368419,-10.4958056166804 -61.9057584310744,-10.4956001685394 -61.9059638792154,-10.49572992526</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-61.9089681411423,-10.4948310250119 -61.9089496173138,-10.4947075328222 -61.9110705956715,-10.4942876593773 -61.9113700642315,-10.4949421679826 -61.9112465720418,-10.4951088824387 -61.9108513970349,-10.4950718347817 -61.9106846825788,-10.4949359933731 -61.9103821267141,-10.494985390249 -61.9097910519901,-10.4952028573639 -61.9096194638839,-10.4952108523096 -61.9093651789179,-10.4951782940685 -61.9093651789179,-10.4951782940685 -61.9090545856751,-10.4949545172016 -61.9089681411423,-10.4948310250119</coordinates></LinearRing></innerBoundaryIs><innerBoundaryIs><LinearRing><coordinates>-61.9161769977147,-10.4929323325956 -61.9169179508527,-10.4943648419959 -61.9170537922614,-10.4949946521632 -61.9160288070871,-10.4950440490391 -61.9152631555111,-10.4945871279373 -61.9151396633214,-10.4943648419959 -61.9146950914385,-10.4944389373097 -61.9147321390954,-10.4938585240182 -61.9145839484678,-10.4935189204966 -61.9142752179936,-10.4934571744017 -61.914165585267,-10.4933294259278 -61.9139331044759,-10.4934105238783 -61.9137763151051,-10.4935024348887 -61.9134601695418,-10.4938832224561 -61.9135589632935,-10.4941857783208 -61.9135960109504,-10.4943710166053 -61.9136083601694,-10.4946180009847 -61.9134848679797,-10.49467357247 -61.9127315656227,-10.4948711599735 -61.9121388031122,-10.4947476677838 -61.9116942312294,-10.494698270908 -61.9115707390397,-10.4941549052734 -61.9121758507691,-10.4940067146458 -61.9123857874916,-10.4937844287044 -61.9146209961247,-10.493166967756 -61.914905028161,-10.4933028091646 -61.9161769977147,-10.4929323325956</coordinates></LinearRing></innerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
